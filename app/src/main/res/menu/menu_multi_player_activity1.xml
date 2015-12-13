@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.slcc.nahamad.hangdroid.MultiPlayerActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never"/>
+    <item android:id="@+id/action_search.png"
+        android:title="@string/action_search"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_call"/>
+
+    <item android:id="@+id/action_call.png"
+        android:title="@string/action_call"
+        android:orderInCategory="300"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_call"/>
+
+
+    <item android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_search"/>
+
+
+        />
+</menu>
